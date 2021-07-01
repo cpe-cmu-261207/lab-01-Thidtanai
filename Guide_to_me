@@ -1,0 +1,25 @@
+1:วางโครงสร้างของกล่องเเม่
+   Ex    
+<!-- containerใหญ่ -->
+<div class="main">
+
+   <!-- container ย่อย -->
+
+   <div class = "img">
+      <img>
+   </div>
+
+   <div class = "content">
+      <h>Text</h>
+   </div>
+
+   <div class = "foot">
+      <div>
+         <img>
+      </div>
+      <div>
+         <link>
+      </div>
+   </div>
+
+</div>
