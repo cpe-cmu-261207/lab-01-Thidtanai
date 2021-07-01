@@ -7,21 +7,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Resume Website</title>
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .BG {
+            background-color: rgb(80, 80, 80);
+        }
+
+        .Profile_container {
+
+            width: 20%;
+            height: 340px;
+            background-color: aquamarine;
+        }
+
+        .Information_container {
+
+            width: 70%;
+            width: 340px;
+            background-color: lightcoral;
+        }
+
+        .Menu_container {
+
+            width: 10%;
+            height: 340px;
+            background-color: rgb(128, 255, 0);
+        }
+    </style>
 </head>
 
-<body>
-    <!-- Profile container -->
+<body class="BG">
+    <!-- background -->
     <div>
+        <div class="box-border p-5">
+            <!-- table container -->
+            <div class="table w-full">
+                <div class="table-row-group">
+                    <div class="table-row">
+                        <!-- Profile container -->
+                        <div class="table-cell Profile_container">
+                            <p>Profile</p>
+                        </div>
+
+                        <!-- Information container -->
+                        <div class="table-cell Information_container">
+                            <p>Information</p>
+                        </div>
+
+                        <!-- Menu container -->
+                        <div class="table-cell Menu_container">
+                            <p>Information</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </div>
 
-    <!-- Information container -->
-    <div>
-    </div>
-
-    <!-- Menu container -->
-    <div>
-    </div>
-    
 </body>
 
 </html>
