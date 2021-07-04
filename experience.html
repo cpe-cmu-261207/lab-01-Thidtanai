@@ -2,244 +2,266 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Resume Website</title>
-    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-    <style>
-        .text {
-            font-family: fantasy;
-        }
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Resume Website</title>
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    .text {
+      font-family: fantasy;
+    }
 
-        .Profile_img {
-            text-align: center;
-            align-items: center;
-            justify-content: center;
-            display: flex;
-        }
+    .Profile_img {
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+    }
 
-        .Profile_content {
-            text-align: center;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            padding: 2rem;
-        }
+    .Profile_content {
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 2rem;
+    }
 
-        .BG {
-            background-color: rgb(17, 17, 26);
-        }
+    .BG {
+      background-color: rgb(17, 17, 26);
+    }
 
-        .Profile_container {
+    .Profile_container {
 
-            width: 20%;
-            height: 340px;
-            background-color: rgb(26, 25, 34);
-        }
+      width: 20%;
+      height: 340px;
+      background-color: rgb(26, 25, 34);
+    }
 
-        .Information_container {
+    .Information_container {
 
-            width: 70%;
-            width: 340px;
-            background-color: rgb(17, 17, 26);
-        }
+      width: 70%;
+      width: 340px;
+      background-color: rgb(17, 17, 26);
+    }
 
-        .Menu_container {
+    .Menu_container {
 
-            width: 10%;
-            height: 340px;
-            background-color: rgb(26, 25, 34);
-        }
+      width: 10%;
+      height: 340px;
+      background-color: rgb(26, 25, 34);
+    }
 
-        .h1 {
-            size: 50px;
-        }
+    .h1 {
+      size: 50px;
+    }
 
-        p2 {
-            color: rgb(136, 134, 133);
-        }
+    p2 {
+      color: rgb(136, 134, 133);
+    }
 
-        p {
-            color: rgb(214, 210, 209);
-        }
-    </style>
+    p {
+      color: rgb(214, 210, 209);
+    }
+
+    .section1 {
+      margin-top: 20px;
+      text-align: center;
+      width: 20%;
+      float: left;
+    }
+
+    .section2 {
+      margin-top: 20px;
+      text-align: center;
+      width: 70%;
+      float: left;
+    }
+
+    .section3 {
+      margin-top: 20px;
+      text-align: center;
+      width: 10%;
+      height: 800px;
+      float: left;
+    }
+  </style>
 </head>
 
 <body class="BG">
-    <!-- background -->
-    <div>
-        <div class="box-border p-5">
-            <!-- table container -->
-            <div class="table w-full">
-                <div class="table-row-group">
-                    <div class="table-row">
-
-                        <!-- Profile container -->
-                        <div class="table-cell Profile_container">
-                            <div class="box-border p-2 ">
-                                <div class="Profile_img">
-                                    <img class="rounded-full h-24 w-24 my-4" src="image/Profile_picture1.jpg">
-                                </div>
-                                <div class="Profile_content">
-                                    <h1 class="text-white">Thidtanai Kaewphet</h1>
-                                    <p style="color: rgb(141, 148, 148);">Entaneer 63</p>
-                                    <p style="color: rgb(141, 148, 148);">630610741</p>
-                                </div>
-                            </div>
-
-                            <div class="box-border p-4" style="background-color: rgb(21, 20, 27);">
-                                <div class="grid grid-cols-1 divide-y divide-gray-700">
-                                    <div>
-                                        <div class="flex justify-between">
-                                            <p>Resident:</p>
-                                            <p2>Thailand</p2>
-                                        </div>
-                                        <div class="flex justify-between">
-                                            <p>City:</p>
-                                            <p2>Chiangmai</p2>
-                                        </div>
-                                        <div class="flex justify-between">
-                                            <p>Age:</p>
-                                            <p2>20</p2>
-                                        </div>
-                                        <br>
-                                    </div>
-
-                                    <div>
-                                        <br>
-                                        <p>Coding</p>
-                                        <div>
-                                            <div class="flex justify-between">
-                                                <p>C</p>
-                                                <p>60 %</p>
-                                            </div>
-                                            <div class="relative pt-1">
-                                                <div
-                                                    class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-purple-200">
-                                                    <div style="width:60%"
-                                                        class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-purple-500">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div>
-                                            <div class="flex justify-between">
-                                                <p>C++</p>
-                                                <p>65 %</p>
-                                            </div>
-                                            <div class="relative pt-1">
-                                                <div
-                                                    class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-purple-200">
-                                                    <div style="width:65%"
-                                                        class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-purple-500">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div>
-                                            <div class="flex justify-between">
-                                                <p>HTML</p>
-                                                <p>40 %</p>
-                                            </div>
-                                            <div class="relative pt-1">
-                                                <div
-                                                    class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-purple-200">
-                                                    <div style="width:40%"
-                                                        class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-purple-500">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div>
-                                            <div class="flex justify-between">
-                                                <p>CSS</p>
-                                                <p>30 %</p>
-                                            </div>
-                                            <div class="relative pt-1">
-                                                <div
-                                                    class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-purple-200">
-                                                    <div style="width:30%"
-                                                        class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-purple-500">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div>
-                                            <div class="flex justify-between">
-                                                <p>C#</p>
-                                                <p>10 %</p>
-                                            </div>
-                                            <div class="relative pt-1">
-                                                <div
-                                                    class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-purple-200">
-                                                    <div style="width:10%"
-                                                        class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-purple-500">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="box-border p-4">
-                                <a href="https://github.com/Thidtanai" target="_blank">
-                                    <div class="flex justify-center">
-                                        <div class="opacity-75">
-                                            <svg class="octicon octicon-mark-github v-align-middle" height="32"
-                                                viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true">
-                                                <path fill-rule="evenodd"
-                                                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
-                                                </path>
-                                            </svg>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-
-
-
-                        <!-- Information container -->
-                        <div class="table-cell Information_container">
-                            <div class="box-border p-2">
-
-                                <img class="h-32 w-full object-cover opacity-50"
-                                    src="https://media.istockphoto.com/photos/low-poly-black-background-picture-id595734386?k=6&m=595734386&s=170667a&w=0&h=jXPrktpFGwhpHjnZWMKL4cmMPLbC4AHSQaEkCxKtXRw=">
-                                <figcaption class="absolute text-lg -mt-16 text-white px-4">
-                                    <div>
-                                        <h2 style="font-size: 50px;">Experience</h2>
-                                    </div>
-                                    </figcatpion>
-
-                            </div>
-                        </div>
-
-
-
-                        <!-- Menu container -->
-                        <div class="table-cell Menu_container">
-                            <div class="box-border p-2">
-                                <a href="index.html">
-                                    <p class="text-center">Home</p><br>
-                                </a>
-                                <p class="text-center">Experience</p><br>
-                                <a href="contact.html">
-                                    <p class="text-center">Contact</p>
-                                </a>
-                            </div>
-
-                        </div>
-
-
-                    </div>
-                </div>
+  <!-- background -->
+  <div>
+    <div class="box-border p-5">
+      <!-- table container -->
+      <div class="container">
+        <!-- Profile container -->
+        <div class="section1">
+          <div class="table-cell Profile_container">
+            <div class="box-border p-2 ">
+              <div class="Profile_img">
+                <img class="rounded-full h-24 w-24 my-4" src="image/Profile_picture1.jpg">
+              </div>
+              <div class="Profile_content">
+                <h1 class="text-white">Thidtanai Kaewphet</h1>
+                <p style="color: rgb(141, 148, 148);">Entaneer 63</p>
+                <p style="color: rgb(141, 148, 148);">630610741</p>
+              </div>
             </div>
 
+            <div class="box-border p-4" style="background-color: rgb(21, 20, 27);">
+              <div class="grid grid-cols-1 divide-y divide-gray-700">
+                <div>
+                  <div class="flex justify-between">
+                    <p>Resident:</p>
+                    <p2>Thailand</p2>
+                  </div>
+                  <div class="flex justify-between">
+                    <p>City:</p>
+                    <p2>Chiangmai</p2>
+                  </div>
+                  <div class="flex justify-between">
+                    <p>Age:</p>
+                    <p2>20</p2>
+                  </div>
+                  <br>
+                </div>
+
+                <div>
+                  <br>
+                  <p>Coding</p>
+                  <div>
+                    <div class="flex justify-between">
+                      <p>C</p>
+                      <p>60 %</p>
+                    </div>
+                    <div class="relative pt-1">
+                      <div class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-purple-200">
+                        <div style="width:60%"
+                          class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-purple-500">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="flex justify-between">
+                      <p>C++</p>
+                      <p>65 %</p>
+                    </div>
+                    <div class="relative pt-1">
+                      <div class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-purple-200">
+                        <div style="width:65%"
+                          class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-purple-500">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="flex justify-between">
+                      <p>HTML</p>
+                      <p>40 %</p>
+                    </div>
+                    <div class="relative pt-1">
+                      <div class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-purple-200">
+                        <div style="width:40%"
+                          class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-purple-500">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="flex justify-between">
+                      <p>CSS</p>
+                      <p>30 %</p>
+                    </div>
+                    <div class="relative pt-1">
+                      <div class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-purple-200">
+                        <div style="width:30%"
+                          class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-purple-500">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="flex justify-between">
+                      <p>C#</p>
+                      <p>10 %</p>
+                    </div>
+                    <div class="relative pt-1">
+                      <div class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-purple-200">
+                        <div style="width:10%"
+                          class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-purple-500">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="box-border p-4">
+              <a href="https://github.com/Thidtanai" target="_blank">
+                <div class="flex justify-center">
+                  <div class="opacity-75">
+                    <svg class="octicon octicon-mark-github v-align-middle" height="32" viewBox="0 0 16 16"
+                      version="1.1" width="32" aria-hidden="true">
+                      <path fill-rule="evenodd"
+                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
+                      </path>
+                    </svg>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
         </div>
-    </div>
+
+
+
+        <!-- Information container -->
+        <div class="section2">
+          <div class="box-border p-2">
+
+            <img class="h-32 w-full object-cover opacity-50"
+              src="https://media.istockphoto.com/photos/low-poly-black-background-picture-id595734386?k=6&m=595734386&s=170667a&w=0&h=jXPrktpFGwhpHjnZWMKL4cmMPLbC4AHSQaEkCxKtXRw=">
+            <figcaption class="absolute text-lg -mt-16 text-white px-4">
+              <div>
+                <h2 style="font-size: 50px;">Home</h2>
+              </div>
+              </figcatpion>
+
+          </div>
+          <div class="box-border p-2">
+            <div class="box-border p-4">
+              <div class="rounded-lg">
+                <img
+                  src="https://scontent.fbkk8-3.fna.fbcdn.net/v/t1.6435-0/p118x90/191286761_258028586101857_4652987830063351032_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=dbeb18&_nc_eui2=AeGR2r3VrxlMQjXO6r16_5Y1PUgAdnHFDaY9SAB2ccUNpqiyNcFWMpHnzJd0W6hb7zE_kZY_2wvuAoYVB3_XvkW4&_nc_ohc=oVLgenorphAAX9EETvK&_nc_ht=scontent.fbkk8-3.fna&tp=6&oh=1866b7f9a06a7be8d0da3959395c901c&oe=60E654A7">
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <!-- Menu container -->
+        <div class="section3 Menu_container">
+          <div>
+            <div class="box-border p-2">
+              <br><br><br>
+              <p class="text-center">Home</p><br>
+              <a href="experience.html">
+                <p class="text-center">Experience</p><br>
+              </a>
+              <a href="contact.html">
+                <p class="text-center">Contact</p>
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
 
 </body>
 
